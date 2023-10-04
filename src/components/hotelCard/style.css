@@ -1,0 +1,127 @@
+.property-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(98, 96, 96);
+}
+.property-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  color: rgb(71, 70, 70);
+}
+.property-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.iconFeatures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.property-propertyd {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 4%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px gray;
+  }
+  .featureofIcon{
+    padding: 5px;
+  }
+  .imges{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .property-actions{
+    margin-bottom: -70px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .property-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .property-name-year {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .property-details {
+    padding: 20px;
+  }
+  
+  .property-price-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .separator {
+    border: 1px dashed #ccc;
+    margin: 20px 0;
+  }
+  
+  .property-price-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .wishlist-button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .amtproperty{
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 5px;
+  }
+  
+  .rent-now-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  .read-now-button {
+    color: rgb(8, 26, 221);
+    border: 2px solid rgb(8, 26, 221);
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  .read-now-button:hover{
+    background-color: #388feb;
+  }
+  .wishlistcont{
+    background-color: white;
+  }
+  

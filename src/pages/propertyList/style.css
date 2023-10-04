@@ -1,0 +1,28 @@
+.cont{
+    overflow: hidden;
+}
+.propertylist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.show-more-button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    margin: 10px 0;
+}
+.show-more-button:hover{
+background-color: #3b93f1;
+}
+.heading{
+    position: relative;
+    left: 40%;
+    top: 1rem;
+}
